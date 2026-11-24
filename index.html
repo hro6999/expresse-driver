@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VTC Lyon – Expresse Driver | Chauffeur privé premium à Lyon</title>
+  <meta name="description" content="Expresse Driver, chauffeur VTC privé à Lyon : transferts aéroport Saint-Exupéry et gares, déplacements d'affaires, soirées et longues distances. Disponible 24h/24 et 7j/7, devis gratuit.">
+  <meta name="keywords" content="VTC Lyon, chauffeur privé Lyon, VTC aéroport Saint-Exupéry, transfert gare Part-Dieu, chauffeur VTC Lyon">
+  <meta name="theme-color" content="#0B0B0B">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://hro6999.github.io/expresse-driver/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Expresse Driver – Chauffeur VTC privé à Lyon">
+  <meta property="og:description" content="Transferts aéroport, gares, affaires et soirées. Ponctualité, discrétion et confort, 24h/24 et 7j/7.">
+  <meta property="og:image" content="https://hro6999.github.io/expresse-driver/images/logo.svg">
+  <meta property="og:url" content="https://hro6999.github.io/expresse-driver/">
+
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TaxiService",
+    "name": "Expresse Driver",
+    "description": "Chauffeur VTC privé à Lyon : transferts aéroport, gares, affaires, événements, mise à disposition et longues distances.",
+    "areaServed": { "@type": "City", "name": "Lyon" },
+    "email": "expressedriver69@gmail.com",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Expresse Driver",
+      "email": "expressedriver69@gmail.com",
+      "address": { "@type": "PostalAddress", "addressLocality": "Lyon", "addressCountry": "FR" },
+      "openingHours": "Mo-Su 00:00-23:59",
+      "paymentAccepted": "Carte bancaire, Espèces",
+      "priceRange": "€€"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================
+       Bibliothèque d'icônes (SVG fait maison, traits dorés fins)
+       ========================================================= -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#E3C77E"/>
+        <stop offset=".55" stop-color="#C9A24D"/>
+        <stop offset="1" stop-color="#9C7A2F"/>
+      </linearGradient>
+
+      <symbol id="logo-mark" viewBox="0 0 56 64">
+        <g fill="url(#goldGrad)">
+          <polygon points="22,14 50,14 47,21 19,21"/>
+          <polygon points="17,28.5 41,28.5 38,35.5 14,35.5"/>
+          <polygon points="12,43 40,43 37,50 9,50"/>
+          <polygon points="22,14 27,14 15,50 10,50" opacity=".9"/>
+          <polygon points="4,28.5 12,28.5 11,30.5 3,30.5" opacity=".55"/>
+          <polygon points="1,33.5 9,33.5 8.3,35.5 0.3,35.5" opacity=".35"/>
+        </g>
+      </symbol>
+
+      <!-- Berline -->
+      <symbol id="i-sedan" viewBox="0 0 24 24">
+        <path d="M2.5 15.6v-2.1c0-.8.5-1.4 1.3-1.6l2.6-.6 2.7-3.1c.4-.4.9-.7 1.5-.7h4.3c.6 0 1.1.2 1.5.6l3.1 3.1 1.7.4c.9.2 1.5 1 1.5 1.9v2.1h-1.6"/>
+        <path d="M6 15.6H4.3M13.6 15.6h-3.2"/>
+        <path d="M7.8 11.3h12"/>
+        <circle cx="8.2" cy="15.8" r="2.1"/><circle cx="16" cy="15.8" r="2.1"/>
+      </symbol>
+      <!-- Avion -->
+      <symbol id="i-plane" viewBox="0 0 24 24">
+        <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/>
+      </symbol>
+      <!-- Train -->
+      <symbol id="i-train" viewBox="0 0 24 24">
+        <rect x="5" y="3" width="14" height="13" rx="3"/>
+        <path d="M5 10h14M9.5 3v7M8 16l-2.5 5M16 16l2.5 5M7 19h10"/>
+        <circle cx="8.8" cy="13" r=".6"/><circle cx="15.2" cy="13" r=".6"/>
+      </symbol>
+      <!-- Chronomètre -->
+      <symbol id="i-chrono" viewBox="0 0 24 24">
+        <circle cx="12" cy="13.5" r="7.5"/>
+        <path d="M12 9.5v4l2.6 1.8M10 2.5h4M12 2.5V6M18.4 7.1l1.4-1.4"/>
+      </symbol>
+      <!-- Autoroute -->
+      <symbol id="i-highway" viewBox="0 0 24 24">
+        <path d="M3.5 21 9 3M20.5 21 15 3"/>
+        <path d="M12 4v2.4M12 9.6v3M12 16v5"/>
+      </symbol>
+      <!-- Volant -->
+      <symbol id="i-wheel" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.4"/>
+        <path d="M3.3 10.6c2.6.5 4.8.9 6.4 1.1M20.7 10.6c-2.6.5-4.8.9-6.4 1.1M12 14.4V21"/>
+      </symbol>
+      <!-- Drapeau à damier -->
+      <symbol id="i-flag" viewBox="0 0 24 24">
+        <path d="M5 21.5V2.5"/>
+        <rect x="5" y="3.5" width="14" height="9"/>
+        <g fill="currentColor" stroke="none">
+          <rect x="5" y="3.5" width="3.5" height="3"/><rect x="12" y="3.5" width="3.5" height="3"/>
+          <rect x="8.5" y="6.5" width="3.5" height="3"/><rect x="15.5" y="6.5" width="3.5" height="3"/>
+          <rect x="5" y="9.5" width="3.5" height="3"/><rect x="12" y="9.5" width="3.5" height="3"/>
+        </g>
+      </symbol>
+      <!-- Siège auto -->
+      <symbol id="i-seat" viewBox="0 0 24 24">
+        <path d="M6.6 3.6c1.5-.7 3.3 0 3.7 1.6l1.9 7.3h4.9c1 0 1.9.8 2 1.8l.3 2.7h-9.3c-.9 0-1.6-.6-1.9-1.4L5.3 7.4c-.4-1.5.1-3.2 1.3-3.8z"/>
+        <path d="M9.5 17l-1 4M17.5 17l1 4M7 21h13"/>
+      </symbol>
+      <!-- Valise -->
+      <symbol id="i-suitcase" viewBox="0 0 24 24">
+        <rect x="5" y="7" width="14" height="12.5" rx="2"/>
+        <path d="M9.5 7V4.5h5V7M9 10.5v6M15 10.5v6M8 19.5V21M16 19.5V21"/>
+      </symbol>
+      <!-- Mallette -->
+      <symbol id="i-briefcase" viewBox="0 0 24 24">
+        <rect x="3" y="7" width="18" height="13" rx="2"/>
+        <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18M11 13v2h2v-2"/>
+      </symbol>
+      <!-- Coupe -->
+      <symbol id="i-glass" viewBox="0 0 24 24">
+        <path d="M8 22h8M12 15v7M6 3h12l-.8 5.2A5.2 5.2 0 0 1 12 13a5.2 5.2 0 0 1-5.2-4.8z"/><path d="M6.5 7h11"/>
+      </symbol>
+      <!-- Horloge -->
+      <symbol id="i-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+      </symbol>
+      <!-- Bouclier -->
+      <symbol id="i-shield" viewBox="0 0 24 24">
+        <path d="M12 2.5l8 3v6c0 5-3.4 9.1-8 10.8-4.6-1.7-8-5.8-8-10.8v-6z"/><path d="M8.8 12l2.2 2.2 4.2-4.4"/>
+      </symbol>
+      <!-- Chauffeur (casquette) -->
+      <symbol id="i-driver" viewBox="0 0 24 24">
+        <path d="M7.5 8.5h9M8 8.5 7 5.5c3-1.5 7-1.5 10 0l-1 3"/>
+        <path d="M8 8.5a4 4 0 0 0 8 0"/>
+        <path d="M4.5 21c0-4 3.4-6.5 7.5-6.5s7.5 2.5 7.5 6.5"/>
+      </symbol>
+      <!-- Calendrier -->
+      <symbol id="i-calendar" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M8.5 15.2l2.1 2.1 4.2-4.2"/>
+      </symbol>
+      <!-- Eau -->
+      <symbol id="i-water" viewBox="0 0 24 24">
+        <path d="M9.5 2h5l-.8 3.5h-3.4zM9 5.5h6l1.2 3v11.5a2 2 0 0 1-2 2H9.8a2 2 0 0 1-2-2V8.5z"/><path d="M7.8 13h8.4"/>
+      </symbol>
+      <!-- Chargeur -->
+      <symbol id="i-charger" viewBox="0 0 24 24">
+        <rect x="7" y="2" width="10" height="20" rx="2"/><path d="M13 7l-3 5h4l-3 5"/>
+      </symbol>
+      <!-- Wi-Fi -->
+      <symbol id="i-wifi" viewBox="0 0 24 24">
+        <path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0"/><circle cx="12" cy="19.5" r=".8"/>
+      </symbol>
+      <!-- Carte bancaire -->
+      <symbol id="i-card" viewBox="0 0 24 24">
+        <rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20M6 15h4"/>
+      </symbol>
+      <!-- Email -->
+      <symbol id="i-mail" viewBox="0 0 24 24">
+        <rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6.5 9 6.5 9-6.5"/>
+      </symbol>
+      <!-- Repère carte -->
+      <symbol id="i-pin" viewBox="0 0 24 24">
+        <path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/>
+      </symbol>
+      <!-- WhatsApp (trait) -->
+      <symbol id="i-wa" viewBox="0 0 24 24">
+        <path d="M3.5 20.5l1.3-4.3a8.6 8.6 0 1 1 3.1 3.1z"/>
+        <path d="M9.2 8.6c-.3 2.9 3 6.2 5.9 5.9l.8-1.4-1.8-.9-.9.7a3.9 3.9 0 0 1-2-2l.7-.9-.9-1.8z"/>
+      </symbol>
+      <!-- Divers -->
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></symbol>
+      <symbol id="i-chevron-l" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+      <symbol id="i-chevron-r" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+      <symbol id="i-power" viewBox="0 0 24 24"><path d="M12 3v8M6.4 6.6a8 8 0 1 0 11.2 0"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div class="cursor" aria-hidden="true"></div>
+
+  <!-- 1. MENU -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#accueil" class="logo" aria-label="Expresse Driver – retour à l'accueil">
+        <svg class="logo__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+        <span class="logo__text"><span class="logo__name">EXPRESSE</span><span class="logo__sub">DRIVER</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a href="#pourquoi">Pourquoi moi</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#vehicule">Véhicule</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#reservation" class="btn btn--gold btn--sm header__cta">Réserver</a>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 2. ACCUEIL -->
+    <section class="hero" id="accueil">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__road" aria-hidden="true"><div class="hero__road-plane"></div></div>
+
+      <div class="container hero__content">
+        <p class="eyebrow reveal" data-bind="heroSurtitre">Chauffeur privé VTC · Lyon</p>
+        <h1 class="hero__title reveal" data-bind-html="heroTitre">L'élégance du trajet,<br><em>la précision de l'heure.</em></h1>
+        <p class="hero__subtitle reveal" data-bind="heroSousTitre">Transferts aéroport, gares, rendez-vous d'affaires et soirées : voyagez à Lyon avec un chauffeur dédié, ponctuel et discret.</p>
+        <div class="hero__actions reveal">
+          <a href="#reservation" class="btn btn--gold">Réserver une course</a>
+          <a href="#tarifs" class="btn btn--outline">Voir les tarifs</a>
+        </div>
+      </div>
+
+      <!-- Berline de luxe dorée + faisceaux de phares -->
+      <div class="hero__stage" aria-hidden="true">
+        <svg class="car" viewBox="0 0 600 200" overflow="visible">
+          <defs>
+            <linearGradient id="carBody" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#262626"/>
+              <stop offset=".55" stop-color="#111"/>
+              <stop offset="1" stop-color="#070707"/>
+            </linearGradient>
+            <linearGradient id="carStroke" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#9C7A2F"/>
+              <stop offset=".45" stop-color="#F0D998"/>
+              <stop offset=".7" stop-color="#C9A24D"/>
+              <stop offset="1" stop-color="#E3C77E"/>
+            </linearGradient>
+            <linearGradient id="carGlass" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#C9A24D" stop-opacity=".28"/>
+              <stop offset=".5" stop-color="#C9A24D" stop-opacity=".05"/>
+              <stop offset="1" stop-color="#C9A24D" stop-opacity=".18"/>
+            </linearGradient>
+            <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#FFF1C9" stop-opacity=".75"/>
+              <stop offset=".25" stop-color="#F0D998" stop-opacity=".28"/>
+              <stop offset="1" stop-color="#C9A24D" stop-opacity="0"/>
+            </linearGradient>
+            <radialGradient id="lampGlow">
+              <stop offset="0" stop-color="#FFF6DC"/>
+              <stop offset=".35" stop-color="#F0D998" stop-opacity=".7"/>
+              <stop offset="1" stop-color="#C9A24D" stop-opacity="0"/>
+            </radialGradient>
+            <radialGradient id="groundGlow">
+              <stop offset="0" stop-color="#F0D998" stop-opacity=".35"/>
+              <stop offset="1" stop-color="#C9A24D" stop-opacity="0"/>
+            </radialGradient>
+            <g id="rim">
+              <circle r="19"/>
+              <circle r="5"/>
+              <line y1="-6" y2="-18"/>
+              <line y1="-6" y2="-18" transform="rotate(72)"/>
+              <line y1="-6" y2="-18" transform="rotate(144)"/>
+              <line y1="-6" y2="-18" transform="rotate(216)"/>
+              <line y1="-6" y2="-18" transform="rotate(288)"/>
+            </g>
+          </defs>
+
+          <!-- Faisceaux de phares -->
+          <g class="car__beams">
+            <polygon points="566,118 1150,30 1150,215 566,128" fill="url(#beam)"/>
+            <polygon points="566,121 980,96 980,150 566,125" fill="url(#beam)" opacity=".8"/>
+            <ellipse cx="760" cy="190" rx="230" ry="12" fill="url(#groundGlow)"/>
+          </g>
+
+          <!-- Ombre au sol -->
+          <ellipse cx="305" cy="191" rx="285" ry="7" fill="#000" opacity=".8"/>
+          <line class="car__ground" x1="-400" y1="190.5" x2="1000" y2="190.5"/>
+
+          <!-- Carrosserie -->
+          <path class="car__body" d="M42 156C36 140 38 124 58 114L132 104C172 82 207 64 247 60L345 58C377 60 401 79 426 100L536 110C557 113 569 122 573 138L573 150C571 156 565 158 557 158L497 158A37 37 0 0 0 423 158L187 158A37 37 0 0 0 113 158L54 158C47 158 43 157 42 156Z"/>
+          <!-- Vitres -->
+          <path class="car__glass" d="M152 103C188 84 214 71 250 68L337 67C361 69 383 84 403 99Z"/>
+          <path class="car__line" d="M292 67.5L294 101M403 99L150 103"/>
+          <!-- Lignes de caractère -->
+          <path class="car__shine" d="M66 121C200 117 420 117 556 123"/>
+          <path class="car__line" d="M292 104L296 154M424 104L420 132M200 108L196 150" opacity=".55"/>
+          <path class="car__line" d="M318 116h16" opacity=".8"/>
+          <!-- Feux -->
+          <path d="M42 121L60 117L60 127L41 129Z" fill="#7a1d1d" opacity=".85"/>
+          <path class="car__lamp" d="M541 115L567 119.5L570 126L546 124Z"/>
+          <circle class="car__lamp-glow" cx="564" cy="122" r="22" fill="url(#lampGlow)"/>
+
+          <!-- Roues -->
+          <g class="car__wheel" transform="translate(150 160)">
+            <circle r="30" class="car__tyre"/>
+            <g class="car__rim"><use href="#rim"/></g>
+          </g>
+          <g class="car__wheel" transform="translate(460 160)">
+            <circle r="30" class="car__tyre"/>
+            <g class="car__rim"><use href="#rim"/></g>
+          </g>
+        </svg>
+      </div>
+
+      <a href="#chiffres" class="hero__scroll" aria-label="Défiler vers la suite"><span></span></a>
+    </section>
+
+    <!-- CHIFFRES CLÉS (compteur kilométrique) -->
+    <section class="stats carbon" id="chiffres" aria-label="Chiffres clés">
+      <div class="container stats__grid" id="stats"><!-- généré depuis CONFIG.chiffres --></div>
+    </section>
+
+    <div class="road-divider" aria-hidden="true"></div>
+
+    <!-- 3. POURQUOI ME CHOISIR -->
+    <section class="section" id="pourquoi">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">L'exigence au quotidien</p>
+          <h2 class="section__title">Pourquoi me choisir</h2>
+        </header>
+
+        <ul class="features">
+          <li class="feature reveal">
+            <span class="feature__light"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></span>
+            <h3>Ponctualité</h3>
+            <p>Suivi de votre vol ou de votre train, arrivée en avance : vous n'attendez jamais.</p>
+          </li>
+          <li class="feature reveal">
+            <span class="feature__light"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span>
+            <h3>Discrétion</h3>
+            <p>Confidentialité absolue, tenue soignée et conduite souple pour vos échanges et votre repos.</p>
+          </li>
+          <li class="feature reveal">
+            <span class="feature__light"><svg class="icon" aria-hidden="true"><use href="#i-seat"/></svg></span>
+            <h3>Confort</h3>
+            <p>Véhicule haut de gamme, intérieur impeccable, climatisation et ambiance apaisante.</p>
+          </li>
+          <li class="feature reveal">
+            <span class="feature__light"><svg class="icon" aria-hidden="true"><use href="#i-driver"/></svg></span>
+            <h3>Chauffeur dédié</h3>
+            <p>Un seul interlocuteur qui connaît vos habitudes, de la réservation à l'arrivée.</p>
+          </li>
+          <li class="feature reveal">
+            <span class="feature__light"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></span>
+            <h3>Disponible 7j/7</h3>
+            <p>Tôt le matin, tard le soir, week-ends et jours fériés : je m'adapte à votre agenda.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="road-divider" aria-hidden="true"></div>
+
+    <!-- 4. SERVICES -->
+    <section class="section carbon" id="services">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Prestations</p>
+          <h2 class="section__title">Mes services de VTC à Lyon</h2>
+        </header>
+
+        <div class="services">
+          <article class="service reveal">
+            <span class="service__num" aria-hidden="true">01</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-plane"/></svg>
+            <h3>Transferts aéroport &amp; gares</h3>
+            <p>Lyon Saint-Exupéry, gares Part-Dieu et Perrache : prise en charge à l'heure, accueil personnalisé et aide aux bagages.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num" aria-hidden="true">02</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg>
+            <h3>Déplacements d'affaires</h3>
+            <p>Rendez-vous clients, séminaires, salons à Eurexpo : un trajet calme pour travailler, facture fournie.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num" aria-hidden="true">03</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-glass"/></svg>
+            <h3>Événements &amp; soirées</h3>
+            <p>Mariages, dîners, concerts, sorties entre amis : profitez de la soirée, je vous raccompagne en toute sécurité.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num" aria-hidden="true">04</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-chrono"/></svg>
+            <h3>Mise à disposition</h3>
+            <p>Un chauffeur à votre service à l'heure ou à la journée, pour enchaîner vos rendez-vous sans contrainte.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num" aria-hidden="true">05</span>
+            <svg class="icon" aria-hidden="true"><use href="#i-highway"/></svg>
+            <h3>Longues distances</h3>
+            <p>Genève, Annecy, Grenoble, stations de ski ou Paris : voyagez porte à porte, dans le confort et sans correspondance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="road-divider" aria-hidden="true"></div>
+
+    <!-- 5. LE VÉHICULE -->
+    <section class="section" id="vehicule">
+      <div class="container vehicle">
+        <figure class="vehicle__photo reveal">
+          <!-- Remplacez ce visuel par votre photo (voir CONFIG.photoVehicule dans script.js) -->
+          <img src="images/vehicule-placeholder.svg" alt="Berline de luxe noire Expresse Driver" width="800" height="560" loading="lazy" data-bind-src="photoVehicule">
+        </figure>
+        <div class="vehicle__text reveal">
+          <p class="eyebrow">Le véhicule</p>
+          <h2 class="section__title" data-bind="vehiculeModele">Une berline premium, pensée pour vous</h2>
+          <p class="lead">Un intérieur raffiné, silencieux et parfaitement entretenu, pour que chaque trajet soit un moment de calme.</p>
+          <ul class="amenities">
+            <li><svg class="icon" aria-hidden="true"><use href="#i-seat"/></svg>
+              <span><strong>Confort</strong> Sièges cuir, climatisation, jusqu'à 4 passagers</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-water"/></svg>
+              <span><strong>Eau offerte</strong> Bouteilles fraîches à disposition</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-charger"/></svg>
+              <span><strong>Chargeurs</strong> iPhone, USB-C et Android</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-wifi"/></svg>
+              <span><strong>Wi-Fi</strong> Connexion gratuite à bord</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="road-divider" aria-hidden="true"></div>
+
+    <!-- 6. TARIFS (compteurs de vitesse) -->
+    <section class="section carbon" id="tarifs">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Tarifs indicatifs</p>
+          <h2 class="section__title">Des prix clairs, fixés à l'avance</h2>
+          <p class="section__intro">Prix forfaitaires TTC au départ de Lyon, jusqu'à 4 passagers. Le prix annoncé est le prix payé.</p>
+        </header>
+
+        <div class="prices" id="prices"><!-- généré depuis CONFIG.tarifs --></div>
+
+        <div class="quote reveal">
+          <p><strong>Devis gratuit</strong> pour tout autre trajet, mise à disposition ou longue distance — réponse rapide.</p>
+          <a href="#reservation" class="btn btn--outline btn--sm">Demander un devis</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="road-divider" aria-hidden="true"></div>
+
+    <!-- 7. AVIS CLIENTS -->
+    <section class="section" id="avis">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Ils m'ont fait confiance</p>
+          <h2 class="section__title">Avis clients</h2>
+        </header>
+        <div class="reviews" id="reviews"><!-- généré depuis CONFIG.avis --></div>
+      </div>
+    </section>
+
+    <div class="road-divider" aria-hidden="true"></div>
+
+    <!-- 8. RÉSERVATION EN 4 ÉTAPES -->
+    <section class="section carbon" id="reservation">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Réservation</p>
+          <h2 class="section__title">Votre trajet en 4 étapes</h2>
+          <p class="section__intro">Votre demande m'est envoyée directement par email. Je vous confirme la course rapidement.</p>
+        </header>
+
+        <div class="booking reveal">
+          <!-- Barre de progression en forme de route -->
+          <div class="trip" aria-hidden="true">
+            <div class="trip__road">
+              <span class="trip__lane"></span>
+              <span class="trip__marks">
+                <span class="trip__mark" data-mark="1"></span>
+                <span class="trip__mark" data-mark="2"></span>
+                <span class="trip__mark" data-mark="3"></span>
+              </span>
+              <span class="trip__car" id="trip-car">
+                <svg viewBox="0 0 64 26"><path d="M4 19v-4c0-1.4 1-2.5 2.4-2.8l6-1.3 6.4-6.3C19.7 3.6 21 3 22.4 3h12.2c1.5 0 2.9.6 4 1.6l6.6 6.3 8.4 1.5C55.7 12.7 58 14.5 58 17v2"/><path d="M15.5 11h33M30 4v7"/><circle cx="17" cy="19.5" r="4.5"/><circle cx="47" cy="19.5" r="4.5"/><path d="M11.5 19.5H4M42 19.5H22.5M58 19.5h-5.5"/></svg>
+              </span>
+              <span class="trip__flag"><svg class="icon"><use href="#i-flag"/></svg></span>
+            </div>
+          </div>
+          <ol class="trip__steps" aria-label="Étapes de la réservation">
+            <li data-step-label="1" aria-current="step"><span class="trip__num">1</span><span class="trip__name">Type</span></li>
+            <li data-step-label="2"><span class="trip__num">2</span><span class="trip__name">Itinéraire</span></li>
+            <li data-step-label="3"><span class="trip__num">3</span><span class="trip__name">Date &amp; heure</span></li>
+            <li data-step-label="4"><span class="trip__num">4</span><span class="trip__name">Coordonnées</span></li>
+          </ol>
+
+          <form class="form" id="booking-form" action="https://formsubmit.co/expressedriver69@gmail.com" method="POST" novalidate>
+            <!-- Réglages FormSubmit -->
+            <input type="hidden" name="_subject" value="Nouvelle réservation Expresse Driver">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" id="f-next" value="">
+            <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <!-- ÉTAPE 1 : Type de course -->
+            <div class="step" data-step="1" role="group" aria-labelledby="step1-title">
+              <h3 class="step__title" id="step1-title" tabindex="-1"><span>Étape 1/4</span>Quel type de course ?</h3>
+              <div class="types">
+                <label class="type-card">
+                  <input type="radio" name="Type de course" value="Course en ville">
+                  <span class="type-card__inner">
+                    <svg class="type-card__icon" aria-hidden="true"><use href="#i-sedan"/></svg>
+                    <span class="type-card__title">Ville</span>
+                    <span class="type-card__desc">Lyon et alentours</span>
+                  </span>
+                </label>
+                <label class="type-card">
+                  <input type="radio" name="Type de course" value="Transfert aéroport">
+                  <span class="type-card__inner">
+                    <svg class="type-card__icon" aria-hidden="true"><use href="#i-plane"/></svg>
+                    <span class="type-card__title">Aéroport</span>
+                    <span class="type-card__desc">Saint-Exupéry</span>
+                  </span>
+                </label>
+                <label class="type-card">
+                  <input type="radio" name="Type de course" value="Transfert gare">
+                  <span class="type-card__inner">
+                    <svg class="type-card__icon" aria-hidden="true"><use href="#i-train"/></svg>
+                    <span class="type-card__title">Gare</span>
+                    <span class="type-card__desc">Part-Dieu, Perrache</span>
+                  </span>
+                </label>
+                <label class="type-card">
+                  <input type="radio" name="Type de course" value="Mise à disposition">
+                  <span class="type-card__inner">
+                    <svg class="type-card__icon" aria-hidden="true"><use href="#i-chrono"/></svg>
+                    <span class="type-card__title">Mise à disposition</span>
+                    <span class="type-card__desc">À l'heure</span>
+                  </span>
+                </label>
+                <label class="type-card">
+                  <input type="radio" name="Type de course" value="Longue distance">
+                  <span class="type-card__inner">
+                    <svg class="type-card__icon" aria-hidden="true"><use href="#i-highway"/></svg>
+                    <span class="type-card__title">Longue distance</span>
+                    <span class="type-card__desc">Genève, Annecy, Paris…</span>
+                  </span>
+                </label>
+              </div>
+              <p class="field__error" id="type-err" aria-live="polite"></p>
+              <div class="step__nav">
+                <button type="button" class="btn btn--gold" data-next>Suivant <svg class="icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+
+            <!-- ÉTAPE 2 : Itinéraire -->
+            <div class="step" data-step="2" role="group" aria-labelledby="step2-title">
+              <h3 class="step__title" id="step2-title" tabindex="-1"><span>Étape 2/4</span>Votre itinéraire</h3>
+
+              <div class="route">
+                <div class="route__point">
+                  <span class="route__icon"><svg class="icon" aria-hidden="true"><use href="#i-wheel"/></svg></span>
+                  <div class="field">
+                    <label for="f-depart">Adresse de départ</label>
+                    <input id="f-depart" name="Départ" type="text" autocomplete="street-address" placeholder="Ex. : 10 place Bellecour, Lyon">
+                    <p class="field__error" id="f-depart-err" aria-live="polite"></p>
+                  </div>
+                </div>
+                <div class="route__point">
+                  <span class="route__icon"><svg class="icon" aria-hidden="true"><use href="#i-flag"/></svg></span>
+                  <div class="field">
+                    <label for="f-destination">Destination</label>
+                    <input id="f-destination" name="Destination" type="text" placeholder="Ex. : Aéroport Lyon Saint-Exupéry">
+                    <p class="field__error" id="f-destination-err" aria-live="polite"></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="steppers">
+                <div class="stepper">
+                  <svg class="stepper__icon" aria-hidden="true"><use href="#i-seat"/></svg>
+                  <span class="stepper__label" id="lbl-passagers">Passagers</span>
+                  <div class="stepper__ctrl">
+                    <button type="button" class="stepper__btn" data-counter="passagers" data-delta="-1" aria-label="Retirer un passager">−</button>
+                    <output class="stepper__value" id="out-passagers" aria-labelledby="lbl-passagers" aria-live="polite">1</output>
+                    <button type="button" class="stepper__btn" data-counter="passagers" data-delta="1" aria-label="Ajouter un passager">+</button>
+                  </div>
+                  <input type="hidden" name="Passagers" id="f-passagers" value="1">
+                </div>
+                <div class="stepper">
+                  <svg class="stepper__icon" aria-hidden="true"><use href="#i-suitcase"/></svg>
+                  <span class="stepper__label" id="lbl-bagages">Bagages</span>
+                  <div class="stepper__ctrl">
+                    <button type="button" class="stepper__btn" data-counter="bagages" data-delta="-1" aria-label="Retirer un bagage">−</button>
+                    <output class="stepper__value" id="out-bagages" aria-labelledby="lbl-bagages" aria-live="polite">0</output>
+                    <button type="button" class="stepper__btn" data-counter="bagages" data-delta="1" aria-label="Ajouter un bagage">+</button>
+                  </div>
+                  <input type="hidden" name="Bagages" id="f-bagages" value="0">
+                </div>
+              </div>
+
+              <div class="step__nav">
+                <button type="button" class="btn btn--ghost" data-prev><svg class="icon-sm" aria-hidden="true"><use href="#i-chevron-l"/></svg> Retour</button>
+                <button type="button" class="btn btn--gold" data-next>Suivant <svg class="icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+
+            <!-- ÉTAPE 3 : Date et heure -->
+            <div class="step" data-step="3" role="group" aria-labelledby="step3-title">
+              <h3 class="step__title" id="step3-title" tabindex="-1"><span>Étape 3/4</span>Date et heure de prise en charge</h3>
+
+              <div class="dash">
+                <div class="cal panel">
+                  <div class="cal__head">
+                    <button type="button" class="cal__nav" data-cal="-1" aria-label="Mois précédent"><svg class="icon-sm" aria-hidden="true"><use href="#i-chevron-l"/></svg></button>
+                    <p class="cal__month" id="cal-month" aria-live="polite"></p>
+                    <button type="button" class="cal__nav" data-cal="1" aria-label="Mois suivant"><svg class="icon-sm" aria-hidden="true"><use href="#i-chevron-r"/></svg></button>
+                  </div>
+                  <div class="cal__weekdays" aria-hidden="true"><span>L</span><span>M</span><span>M</span><span>J</span><span>V</span><span>S</span><span>D</span></div>
+                  <div class="cal__grid" id="cal-grid" role="group" aria-label="Choisir une date"></div>
+                  <p class="field__error" id="date-err" aria-live="polite"></p>
+                </div>
+
+                <div class="dial panel">
+                  <div class="dial__face">
+                    <svg class="dial__svg" id="dial-svg" viewBox="0 0 220 178" aria-hidden="true">
+                      <path class="dial__track" d="M32.06 155A90 90 0 1 1 187.94 155"/>
+                      <path class="dial__value" id="dial-value" pathLength="100" d="M32.06 155A90 90 0 1 1 187.94 155"/>
+                      <g id="dial-ticks"></g>
+                      <g class="dial__needle" id="dial-needle">
+                        <path d="M110 30L113 110H107Z"/>
+                        <circle cx="110" cy="110" r="9"/>
+                        <circle cx="110" cy="110" r="3" class="dial__hub"/>
+                      </g>
+                    </svg>
+                    <p class="dial__readout"><span id="dial-time">08:00</span><small>Heure</small></p>
+                  </div>
+                  <div class="dial__ctrls">
+                    <div class="dial__group">
+                      <span>Heures</span>
+                      <button type="button" class="stepper__btn" data-time="h" data-delta="-1" aria-label="Une heure plus tôt">−</button>
+                      <button type="button" class="stepper__btn" data-time="h" data-delta="1" aria-label="Une heure plus tard">+</button>
+                    </div>
+                    <div class="dial__group">
+                      <span>Minutes</span>
+                      <button type="button" class="stepper__btn" data-time="m" data-delta="-1" aria-label="Cinq minutes plus tôt">−</button>
+                      <button type="button" class="stepper__btn" data-time="m" data-delta="1" aria-label="Cinq minutes plus tard">+</button>
+                    </div>
+                  </div>
+                  <p class="sr-only" id="time-live" aria-live="polite"></p>
+                  <p class="field__error" id="heure-err" aria-live="polite"></p>
+                </div>
+              </div>
+              <input type="hidden" name="Date" id="f-date">
+              <input type="hidden" name="Heure" id="f-heure">
+
+              <div class="step__nav">
+                <button type="button" class="btn btn--ghost" data-prev><svg class="icon-sm" aria-hidden="true"><use href="#i-chevron-l"/></svg> Retour</button>
+                <button type="button" class="btn btn--gold" data-next>Suivant <svg class="icon-sm" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+              </div>
+            </div>
+
+            <!-- ÉTAPE 4 : Coordonnées -->
+            <div class="step" data-step="4" role="group" aria-labelledby="step4-title">
+              <h3 class="step__title" id="step4-title" tabindex="-1"><span>Étape 4/4</span>Vos coordonnées</h3>
+
+              <div class="form__grid">
+                <div class="field">
+                  <label for="f-nom">Nom complet</label>
+                  <input id="f-nom" name="Nom" type="text" autocomplete="name">
+                  <p class="field__error" id="f-nom-err" aria-live="polite"></p>
+                </div>
+                <div class="field">
+                  <label for="f-tel">Votre téléphone</label>
+                  <input id="f-tel" name="Téléphone" type="tel" autocomplete="tel" inputmode="tel" placeholder="06 00 00 00 00">
+                  <p class="field__error" id="f-tel-err" aria-live="polite"></p>
+                </div>
+                <div class="field field--full">
+                  <label for="f-email">Votre email <small>(facultatif)</small></label>
+                  <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="vous@exemple.fr">
+                  <p class="field__error" id="f-email-err" aria-live="polite"></p>
+                </div>
+                <div class="field field--full">
+                  <label for="f-commentaire">Commentaire <small>(facultatif)</small></label>
+                  <textarea id="f-commentaire" name="Commentaire" rows="3" placeholder="Numéro de vol, siège enfant, arrêt intermédiaire…"></textarea>
+                </div>
+              </div>
+
+              <div class="recap" id="recap" aria-live="polite"></div>
+
+              <div class="payment">
+                <svg class="icon" aria-hidden="true"><use href="#i-card"/></svg>
+                <p><strong>Paiement à bord</strong> par carte bancaire ou espèces</p>
+              </div>
+              <input type="hidden" name="Paiement" value="À bord – carte bancaire ou espèces">
+
+              <div class="start">
+                <button type="submit" class="start__btn" id="start-btn" aria-label="Envoyer ma réservation">
+                  <span class="start__ring" aria-hidden="true"></span>
+                  <span class="start__face" aria-hidden="true">
+                    <svg class="start__icon"><use href="#i-power"/></svg>
+                    <span class="start__small">ENGINE</span>
+                    <span class="start__big">START</span>
+                    <span class="start__small start__small--dim">STOP</span>
+                  </span>
+                </button>
+                <p class="start__hint" id="form-status" role="status" aria-live="polite">Appuyez sur START pour envoyer votre réservation</p>
+              </div>
+
+              <div class="step__nav step__nav--start">
+                <button type="button" class="btn btn--ghost" data-prev><svg class="icon-sm" aria-hidden="true"><use href="#i-chevron-l"/></svg> Retour</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="road-divider" aria-hidden="true"></div>
+
+    <!-- 9. CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section__title">Parlons de votre trajet</h2>
+        </header>
+
+        <div class="contacts">
+          <a class="contact reveal" href="mailto:expressedriver69@gmail.com" data-href="mail">
+            <svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg>
+            <span class="contact__label">Email</span>
+            <span class="contact__value" data-bind="email">expressedriver69@gmail.com</span>
+          </a>
+          <div class="contact reveal">
+            <svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>
+            <span class="contact__label">Zone desservie</span>
+            <span class="contact__value" data-bind="zone">Lyon et alentours</span>
+          </div>
+        </div>
+
+        <p class="contact__wa reveal">
+          <a class="btn btn--ghost btn--sm" href="https://wa.me/qr/KYD4EWFPD52UM1" data-href="whatsapp" target="_blank" rel="noopener">
+            <svg class="icon-sm" aria-hidden="true"><use href="#i-wa"/></svg> M'ajouter sur WhatsApp
+          </a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 10. PIED DE PAGE -->
+  <footer class="footer">
+    <div class="road-divider road-divider--flat" aria-hidden="true"></div>
+    <div class="container footer__inner">
+      <a href="#accueil" class="logo" aria-label="Expresse Driver – retour en haut">
+        <svg class="logo__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+        <span class="logo__text"><span class="logo__name">EXPRESSE</span><span class="logo__sub">DRIVER</span></span>
+      </a>
+      <p class="footer__tagline">Chauffeur VTC privé à Lyon · 24h/24 · 7j/7</p>
+      <nav aria-label="Liens du pied de page">
+        <ul class="footer__links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#reservation">Réservation</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button type="button" class="link-btn" id="open-legal">Mentions légales</button></li>
+        </ul>
+      </nav>
+      <p class="footer__copy">© <span id="year">2026</span> Expresse Driver. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Mentions légales -->
+  <dialog class="modal" id="legal" aria-labelledby="legal-title">
+    <div class="modal__inner">
+      <h2 id="legal-title">Mentions légales</h2>
+      <p><em>Texte provisoire – à compléter avant publication.</em></p>
+      <h3>Éditeur du site</h3>
+      <p>Expresse Driver – Entreprise individuelle<br>
+        Responsable : [Votre nom et prénom]<br>
+        SIRET : [000 000 000 00000]<br>
+        Inscription au registre VTC : [EVTC0000000000]<br>
+        Adresse : [Adresse], Lyon<br>
+        Contact : <span data-bind="email">expressedriver69@gmail.com</span></p>
+      <h3>Hébergement</h3>
+      <p>GitHub Pages – GitHub Inc., 88 Colin P. Kelly Jr Street, San Francisco, CA 94107, États-Unis.</p>
+      <h3>Données personnelles</h3>
+      <p>Les informations saisies dans le formulaire de réservation sont transmises par email (via le service FormSubmit) uniquement pour traiter votre demande. Elles ne sont ni revendues ni utilisées à d'autres fins.</p>
+      <button type="button" class="btn btn--gold btn--sm" data-close>Fermer</button>
+    </div>
+  </dialog>
+
+  <!-- Confirmation après envoi de la réservation -->
+  <dialog class="modal modal--confirm" id="confirmation" aria-labelledby="confirm-title">
+    <div class="modal__inner">
+      <div class="confirm__badge" aria-hidden="true">
+        <svg class="confirm__ring" viewBox="0 0 120 120"><circle cx="60" cy="60" r="54"/></svg>
+        <svg class="confirm__flag"><use href="#i-flag"/></svg>
+      </div>
+      <p class="eyebrow">Arrivée à destination</p>
+      <h2 id="confirm-title">Réservation bien reçue</h2>
+      <p>Merci pour votre confiance. Je reviens vers vous très rapidement pour confirmer votre course.</p>
+      <p class="confirm__pay">Paiement à bord par carte bancaire ou espèces</p>
+      <button type="button" class="btn btn--gold" data-close>Retour au site</button>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

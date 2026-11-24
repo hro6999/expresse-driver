@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Emplacement photo du véhicule">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1c1c"/>
+      <stop offset="1" stop-color="#0B0B0B"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9A24D" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#C9A24D"/>
+      <stop offset="1" stop-color="#C9A24D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#bg)"/>
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#C9A24D" stroke-opacity=".35"/>
+  <!-- berline stylisée -->
+  <g fill="none" stroke="#C9A24D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 340 L190 300 Q215 272 260 262 L330 222 Q360 206 400 206 L500 206 Q540 206 568 228 L612 262 Q660 268 680 290 L690 320 Q692 340 676 344 L640 344"/>
+    <path d="M150 340 Q140 344 146 350 L200 350"/>
+    <path d="M280 350 L560 350"/>
+    <circle cx="240" cy="350" r="38"/>
+    <circle cx="600" cy="350" r="38"/>
+    <path d="M300 262 L340 230 Q362 218 400 218 L440 218 L440 262 Z" stroke-opacity=".7"/>
+    <path d="M456 218 L500 218 Q532 218 552 232 L588 262 L456 262 Z" stroke-opacity=".7"/>
+  </g>
+  <rect x="140" y="400" width="560" height="2" fill="url(#gold)"/>
+  <text x="400" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#F5F1E8" fill-opacity=".85">Votre photo du véhicule ici</text>
+  <text x="400" y="492" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" letter-spacing="3" fill="#C9A24D">images/vehicule.jpg</text>
+</svg>
